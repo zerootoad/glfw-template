@@ -134,7 +134,7 @@ Ensure that GLFW is installed correctly. If you encounter issues, try reinstalli
 ```bash
 sudo pacman -S glfw-x11 
 ```
-For Wayland support, install `glfw-wayland` instead of `glfw-x11`.
+For Wayland support, reinstall `glfw-wayland` instead of `glfw-x11`.
 
 ---
 
