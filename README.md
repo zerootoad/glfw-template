@@ -61,7 +61,12 @@ GLAD is used to load OpenGL functions. The necessary files (`glad.h` and `glad.c
 
 To build the project, follow these steps:
 
-1. Clone the repository (if applicable) or navigate to the project directory.
+1. Clone the repository and navigate to the cloned directory:
+  
+   ```bash
+   git clone https://github.com/zerootoad/glfw-template.git
+   cd glfw-template
+   ```
 
 2. Create a `build` directory and navigate into it:
 
@@ -87,7 +92,7 @@ To build the project, follow these steps:
 5. Run the executable:
 
    ```bash
-   ./MyOpenGLProject
+   ./LearningGLFW
    ```
 
 ---
@@ -107,7 +112,7 @@ If you need to modify the CMake configuration, edit the `CMakeLists.txt` file.
 ## Troubleshooting
 
 ### 1. **Header File Not Found**
-If your editor (e.g., Helix, VSCode) cannot find the `glad/glad.h` header file, ensure that the `compile_commands.json` file is generated. Add the following line to your `CMakeLists.txt`:
+If your editor (e.g., Helix, VSCode) cannot find the `glad/glad.h` header file, ensure that the `compile_commands.json` file is generated if not, double-check for the following line in your `CMakeLists.txt`:
 
 ```cmake
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
